@@ -3,17 +3,6 @@
 This project demonstrates the deployment of a DevOps pipeline using industry-standard tools and practices. It integrates continuous integration (CI) and continuous delivery (CD) pipelines, ensuring seamless and automated deployment processes.
 ![snap](Snapshot/Project-architecute.png)
 
-## Overview
-The project sets up Jenkins and Kubernetes servers dynamically using Terraform. Post provisioning, these servers are configured using user-data scripts for automated setup. The CI/CD pipelines cover code building, testing, containerization, vulnerability scanning, and deployment.
-
-## Key Features
-- Dynamic server provisioning with Terraform.
-- Secure server configuration, including SSH key-based authentication.
-- Robust CI/CD pipeline implemented via Jenkins.
-- Automated containerization and vulnerability scanning.
-- Kubernetes-based deployment using Ansible.
-
-
 ## Tools Used
 
 <a href="https://www.jenkins.io">
@@ -54,8 +43,20 @@ The project sets up Jenkins and Kubernetes servers dynamically using Terraform. 
 </a>
 
 
-**Jenkins**  **Docker** **Terraform** **Git** **Trivy** **AWS EC2** **Maven** **Ansible** **Kubernetes**
+**Jenkins** **Visual Studio Code** **Docker** **Terraform** **Git** **GitHub** **Trivy** **AWS EC2** **Maven** **Ansible** **Kubernetes**
 **Linux**
+
+## Overview
+The project sets up Jenkins and Kubernetes servers dynamically using Terraform. Post provisioning, these servers are configured using user-data scripts for automated setup. The CI/CD pipelines cover code building, testing, containerization, vulnerability scanning, and deployment.
+
+## Key Features
+- Dynamic server provisioning with Terraform.
+- Secure server configuration, including SSH key-based authentication.
+- Robust CI/CD pipeline implemented via Jenkins.
+- Automated containerization and vulnerability scanning.
+- Kubernetes-based deployment using Ansible.
+
+
 
 ## Server Configuration
 After provisioning Jenkins and Kubernetes servers using Terraform:
